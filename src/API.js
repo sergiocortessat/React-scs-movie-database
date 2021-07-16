@@ -1,3 +1,5 @@
+/* eslint-disable consistent-return */
+/* eslint-disable no-return-await */
 import {
   SEARCH_BASE_URL,
   POPULAR_BASE_URL,
