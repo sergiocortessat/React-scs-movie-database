@@ -1,7 +1,10 @@
 import React from 'react';
-import { GlobalStyle } from './GlobalStyle';
+// Components
 import Header from './components/Header';
 import Home from './components/Home';
+
+// Styles
+import { GlobalStyle } from './GlobalStyle';
 
 function App() {
   return (

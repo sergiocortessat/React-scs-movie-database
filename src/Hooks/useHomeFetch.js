@@ -1,6 +1,5 @@
-/* eslint-disable import/prefer-default-export */
 /* eslint-disable no-unused-vars */
-/* eslint-disable linebreak-style */
+/* eslint-disable import/prefer-default-export */
 import { useState, useEffect, useRef } from 'react';
 // API
 import API from '../API';
@@ -23,24 +22,26 @@ export const useHomeFetch = () => {
       setError(false);
       setLoading(true);
 
-      const movies = await API.fetchMovies(page, searchTerm);
+      const movies = await API.fetchMovies(searchTerm, page);
+
       setState((prev) => ({
-        // ask ari or ryel why this spread has to go here //
         ...movies,
         results:
           page > 1 ? [...prev.results, ...movies.results] : [...movies.results],
       }));
-    } catch (e) {
+    } catch (error) {
       setError(true);
     }
     setLoading(false);
   };
 
+  // Initial and search
   useEffect(() => {
-    fetchMovies(1);
-  }, []);
+    setState(initialState);
+    fetchMovies(1, searchTerm);
+  }, [searchTerm]);
 
   return {
-    state, loading, error, setSearchTerm,
+    state, loading, error, searchTerm, setSearchTerm,
   };
 };

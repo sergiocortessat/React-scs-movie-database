@@ -1,10 +1,8 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from 'react';
-
-// styles
-
-import { Image } from './Thumbs.styles';
+// Styles
+import { Image } from './Thumb.styles';
 
 const Thumb = ({ image, movieId, clickable }) => (
   <div>
