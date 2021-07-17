@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { Content, Wrapper } from '../HeroImage/HeroImage.styles';
+import { Content, Wrapper } from './Grid.styles';
 
 // styles
 
