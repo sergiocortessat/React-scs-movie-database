@@ -6,7 +6,7 @@
 
 ## Live Version
 
-* [Live Demo](https://calculator-pwa-scs.herokuapp.com/) 
+* [Live Demo](https://movie-data-base-scs.netlify.app/) 
 
 <br />
 
@@ -27,7 +27,7 @@
 
 ![Javascript](https://img.shields.io/badge/Javascript-3776AB?style=for-the-badge&logo=javascript&logoColor=white) <br/>
 ![React](https://img.shields.io/badge/React-092E20?style=for-the-badge&logo=react&logoColor=white) <br/>
-![Scss](https://img.shields.io/badge/Sass-092E20?style=for-the-badge&logo=sass&logoColor=white) <br/>
+![Styled](https://img.shields.io/badge/Sass-092E20?style=for-the-badge&logo=sass&logoColor=white) <br/>
 
 ## Screenshot
 
@@ -44,7 +44,7 @@
 
 ## About The Project
 
-The React Calculator creates a web application capable of displaying a calculator layout face and its proper functionality to perform all necessary operations a calculator can
+The React movie database offers users the possibility to check on the latest trending movies there is. as well they can filter by their choice movie and check specific specs of it such as director, budget, cast and bio. 
 
 <br />
 
@@ -63,21 +63,21 @@ Terminal or similar to execute the program.
 
 ## Clone project
 - To get a local copy up and running follow these simple example steps.
-- Clone this repository with git clone ```https://github.com/sergiocortessat/React_Calculator1/``` using your terminal or command line.
-- Change to the project directory by entering: ```cd React_Calculator1``` in the terminal.
+- Clone this repository with git clone ```https://github.com/sergiocortessat/React-scs-movie-database``` using your terminal or command line.
+- Change to the project directory by entering: ```cd React-scs-movie-database``` in the terminal.
 - Enter the command npm i
 - Enter the project folder and run locally by using npm start.
 
 ## Command line steps
 ```
-- $ git clone `$ git clone https://github.com/sergiocortessat/React_Calculator1/
+- $ git clone `$ git clone https://github.com/sergiocortessat/React-scs-movie-database/
 - $ git checkout develop
-- $ cd React_Calculator1
+- $ cd React-scs-movie-database
 - $ npm i
 - $ npm start
 ```
 
-## Testing
+<!-- ## Testing
 
 The testing has been performed using Jest Framework. 
 
@@ -90,7 +90,7 @@ The testing has been performed using Jest Framework.
 - $ npm run test
 
 ```
-![Tests](test.png)
+![Tests](test.png) -->
 
 
 ## Authors
