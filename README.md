@@ -12,6 +12,11 @@
 
 ## Table of Contents
 
+## About The Project
+
+The React movie database offers users the possibility to check on the latest trending movies there is. as well they can filter by their choice movie and check specific specs of it such as director, budget, cast and bio. 
+
+<br />
 <br />
 
 * [About the Project](#about-the-project)
@@ -42,11 +47,6 @@
 <br />
 
 
-## About The Project
-
-The React movie database offers users the possibility to check on the latest trending movies there is. as well they can filter by their choice movie and check specific specs of it such as director, budget, cast and bio. 
-
-<br />
 
 
 ## Contributing
