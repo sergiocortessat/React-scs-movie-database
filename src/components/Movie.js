@@ -18,7 +18,7 @@ import MovieInfoBar from './MovieInfoBar';
 import Actor from './Actor';
 
 // Hook
-import { useMovieFetch } from '../hooks/useMovieFetch';
+import { useMovieFetch } from '../Hooks/useMovieFetch';
 // Image
 
 import NoImage from '../images/no_image.jpg';
