@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // Styles
 import { Wrapper, Image } from './Actor.style';
@@ -12,5 +11,13 @@ const Actor = ({ name, character, imageUrl }) => (
     <p>{character}</p>
   </Wrapper>
 );
+
+// define proptypes
+
+Actor.propTypes = {
+  name: PropTypes.string.isRequired,
+  character: PropTypes.string.isRequired,
+  imageUrl: PropTypes.string.isRequired,
+};
 
 export default Actor;

@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // Style
 
@@ -10,5 +10,10 @@ const Button = ({ text, callback }) => (
     {text}
   </Wrapper>
 );
+
+Button.propTypes = {
+  text: PropTypes.string.isRequired,
+  callback: PropTypes.func.isRequired,
+};
 
 export default Button;

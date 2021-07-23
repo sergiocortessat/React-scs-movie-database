@@ -1,6 +1,8 @@
 /* eslint-disable consistent-return */
-/* eslint-disable react/prop-types */
 import React, { useState, useEffect, useRef } from 'react';
+
+// Proptypes
+import PropTypes from 'prop-types';
 // Image
 import searchIcon from '../../images/search-icon.svg';
 // Styles
@@ -36,6 +38,11 @@ const SearchBar = ({ setSearchTerm }) => {
       </Content>
     </Wrapper>
   );
+};
+
+// Proptypes
+SearchBar.propTypes = {
+  setSearchTerm: PropTypes.func.isRequired,
 };
 
 export default SearchBar;

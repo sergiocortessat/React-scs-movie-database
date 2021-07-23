@@ -1,6 +1,5 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 // Styles
 import { Image } from './Thumb.styles';
@@ -17,5 +16,12 @@ const Thumb = ({ image, movieId, clickable }) => (
     )}
   </div>
 );
+
+// Proptypes
+Thumb.propTypes = {
+  image: PropTypes.string.isRequired,
+  movieId: PropTypes.string.isRequired,
+  clickable: PropTypes.bool.isRequired,
+};
 
 export default Thumb;
