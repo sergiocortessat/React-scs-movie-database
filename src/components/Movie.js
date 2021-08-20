@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable max-len */
 /* eslint-disable no-multi-spaces */
 import React, { useEffect, useState } from 'react';
