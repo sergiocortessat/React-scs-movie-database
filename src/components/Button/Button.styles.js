@@ -16,7 +16,7 @@ export const Wrapper = styled.button`
   transition: all 0.3s;
 
   //What this putline works for
-  outline: 1px solid red;
+  outline: none;
   cursor: pointer;
 
   :hover {
