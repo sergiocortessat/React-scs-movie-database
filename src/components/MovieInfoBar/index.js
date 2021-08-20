@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // Helpers
 
@@ -33,5 +32,12 @@ const MovieInfoBar = ({ time, budget, revenue }) => (
     </Content>
   </Wrapper>
 );
+
+// Proptypes
+MovieInfoBar.propTypes = {
+  time: PropTypes.number,
+  budget: PropTypes.number,
+  revenue: PropTypes.number,
+}.isRequired;
 
 export default MovieInfoBar;

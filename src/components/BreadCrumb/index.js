@@ -1,6 +1,6 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 // Styles
 
@@ -19,5 +19,9 @@ const BreadCrumb = ({ movieTitle }) => (
     </Content>
   </Wrapper>
 );
+
+BreadCrumb.propTypes = {
+  movieTitle: PropTypes.string.isRequired,
+};
 
 export default BreadCrumb;

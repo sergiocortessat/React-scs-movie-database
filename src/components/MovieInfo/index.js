@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // Components
 
@@ -51,5 +50,20 @@ const MovieInfo = ({ movie }) => (
     </Content>
   </Wrapper>
 );
+
+// check PropTypes
+MovieInfo.propTypes = {
+  movie: PropTypes.shape({
+    backdrop_path: PropTypes.string,
+    poster_path: PropTypes.string,
+    title: PropTypes.string,
+    overview: PropTypes.string,
+    vote_average: PropTypes.number,
+    directors: PropTypes.arrayOf(PropTypes.shape({
+      name: PropTypes.string,
+      credit_id: PropTypes.string,
+    })),
+  }).isRequired,
+};
 
 export default MovieInfo;

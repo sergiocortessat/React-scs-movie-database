@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 // Config
 import { POSTER_SIZE, BACKDROP_SIZE, IMAGE_BASE_URL } from '../config';
@@ -25,7 +24,7 @@ const Home = () => {
     setIsLoadingMore,
   } = useHomeFetch();
 
-  console.log(state);
+  // console.log(state);
 
   if (error) return <div>Something went wrong...</div>;
 
@@ -55,7 +54,7 @@ const Home = () => {
       </Grid>
       {loading && <Spinner />}
       {state.page < state.total_pages && !loading && (
-        <Button text="Load More" callback={(e) => setIsLoadingMore(true)} />
+        <Button text="Load More" callback={() => setIsLoadingMore(true)} />
       )}
     </>
   );
