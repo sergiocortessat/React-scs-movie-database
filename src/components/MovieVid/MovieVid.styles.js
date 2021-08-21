@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
  display: flex;
  justify-content: center;
  margin: 50px 0 30px 0;
-}`;
+`;
 
 export const IFrame = styled.iframe`
  height: 800px;

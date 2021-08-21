@@ -21,7 +21,7 @@ import Actor from './Actor';
 import MoviesVid from './MovieVid';
 
 // Hook
-import { useMovieFetch } from '../hooks/useMovieFetch';
+import { useMovieFetch } from '../Hooks/useMovieFetch';
 // Image
 
 import NoImage from '../images/no_image.jpg';
